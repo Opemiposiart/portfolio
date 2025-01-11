@@ -62,11 +62,11 @@ body {
             position: relative;
             
         }
-         .dp{
+/*          .dp{
             max-width: 300px;
             height: auto;
             margin-top: 80px;
-         }
+         } */
         .hero-content {
             background-color: rgba(0, 0, 0, 0.5);
             padding: 20px;
