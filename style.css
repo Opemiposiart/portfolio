@@ -60,7 +60,7 @@ body {
             color: white;
             position: relative;
         }
-         #hero img{
+         .dp{
             max-width: 300px;
             height: auto;
             margin-top: 80px;
