@@ -171,8 +171,8 @@ footer {
 
 /* for the review section */
 .pic{
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     margin: 14px 5px;
     border-color: tomato;
     border-style: dotted;
