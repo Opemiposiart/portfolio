@@ -80,6 +80,7 @@ body {
 
         section {
             padding: 20px;
+            background-color: black;
         }
 
         #services, #contact {
