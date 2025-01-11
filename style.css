@@ -16,7 +16,7 @@ body {
 
         .header-content {
             max-width: 1300px;
-            margin: 0 auto;
+            margin: 0px auto 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -53,13 +53,14 @@ body {
             background-size: cover;
             background-position: center;
             height: 600px;
+            margin: 20px 0px;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: white;
             position: relative;
-            margin: 20px 0px;
+            
         }
          .dp{
             max-width: 300px;
