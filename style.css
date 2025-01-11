@@ -10,6 +10,8 @@ body {
             background-color: tomato;
             color: white;
             padding: 15px 0;
+            position: relative;
+            z-index: 1000;
         }
 
         .header-content {
@@ -56,8 +58,13 @@ body {
             justify-content: center;
             text-align: center;
             color: white;
+            position: relative;
         }
-
+         #hero img{
+            max-width: 300px;
+            height: auto;
+            margin-top: 80px;
+         }
         .hero-content {
             background-color: rgba(0, 0, 0, 0.5);
             padding: 20px;
