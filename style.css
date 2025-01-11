@@ -1,4 +1,12 @@
-body {
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
@@ -10,13 +18,16 @@ body {
             background-color: tomato;
             color: white;
             padding: 15px 0;
-            position: relative;
+            position: fixed;
+            top: 0;
+            width: 100%;
             z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
         }
 
         .header-content {
             max-width: 1300px;
-            margin: 0px auto 10px;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -53,23 +64,24 @@ body {
             background-size: cover;
             background-position: center;
             height: 600px;
-            margin: 20px 0px;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: white;
-            position: relative;
-            
+            margin-top: 80px; /* Accounts for the fixed header */
         }
-/*          .dp{
+
+        #hero img {
             max-width: 300px;
             height: auto;
-            margin-top: 80px;
-         } */
+            margin-bottom: 20px;
+        }
+
         .hero-content {
             background-color: rgba(0, 0, 0, 0.5);
             padding: 20px;
+            border-radius: 10px;
         }
 
         .hero-button {
@@ -89,8 +101,6 @@ body {
 
         section {
             padding: 20px;
-            margin: 20px 0px;
-            background-color: black;
         }
 
         #services, #contact {
@@ -99,13 +109,12 @@ body {
         }
 
         #about, #portfolio {
-            background-color: black;
+            background-color: tomato;
             color: white;
         }
 
         h2 {
             margin-bottom: 15px;
-            color: tomato;
         }
 
         ul {
